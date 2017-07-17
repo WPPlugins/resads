@@ -1,0 +1,458 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ResAds\n"
+"POT-Creation-Date: 2015-10-20 10:58+0200\n"
+"PO-Revision-Date: 2015-10-20 10:59+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class/AdManagement.php:109 class/AdSpot.php:64 class/Dashboard.php:19
+msgid "You do not have permissions."
+msgstr ""
+"Sie haben nicht genügend Berechtigungen, um auf diese Seite zuzugreifen."
+
+#: class/AdManagement.php:114 class/Dashboard.php:113
+#: templates/admanagement/admanagement.php:4
+msgid "AdManagement"
+msgstr "Bannerverwaltung"
+
+#: class/AdManagement.php:253
+msgid "Ad Details"
+msgstr "Bannerdetails"
+
+#: class/AdManagement.php:254
+msgid "Link and Graphic"
+msgstr "Link und Grafik"
+
+#: class/AdManagement.php:255
+msgid "Sourcecode"
+msgstr "Quellcode"
+
+#: class/AdManagement.php:256
+msgid "Options"
+msgstr "Optionen"
+
+#: class/AdManagement.php:259 class/AdManagement.php:764
+#: class/AdManagement.php:935 class/AdSpot.php:214 class/AdSpot.php:715
+msgid "Submit"
+msgstr "Absenden"
+
+#: class/AdManagement.php:260 class/AdSpot.php:69 class/AdSpot.php:543
+#: class/Dashboard.php:42 class/Dashboard.php:150
+msgid "AdSpots"
+msgstr "AdSpots"
+
+#: class/AdManagement.php:261
+msgid "Tutorial"
+msgstr "Tutorial"
+
+#: class/AdManagement.php:285
+msgid "Ad Name is missing"
+msgstr "Bannername fehlt"
+
+#: class/AdManagement.php:288
+msgid "Banner Width is missing"
+msgstr "Bannerbreite fehlt"
+
+#: class/AdManagement.php:291
+msgid "Banner Height is missing"
+msgstr "Bannerhöhe fehlt"
+
+#: class/AdManagement.php:294
+msgid "Banner-URL and Banner Target-URL or Banner Source Code is missing"
+msgstr "Banner-URL, sowie Banner-Ziel-URL oder Banner Quellcode fehlt"
+
+#: class/AdManagement.php:302
+msgid "There is no resolution for your banner size"
+msgstr "Es gibt keine Auflösung für die Banner-Größe"
+
+#: class/AdManagement.php:551 class/AdSpot.php:527 class/AdSpot.php:726
+msgid "Name"
+msgstr "Name"
+
+#: class/AdManagement.php:552 class/AdManagement.php:756
+msgid "Active"
+msgstr "Aktiv"
+
+#: class/AdManagement.php:553
+msgid "Statistik"
+msgstr "Statistik"
+
+#: class/AdManagement.php:554 class/AdSpot.php:989
+#: templates/adspot/adspot.php:3
+msgid "AdSpot"
+msgstr "AdSpots"
+
+#: class/AdManagement.php:567 class/Dashboard.php:41
+msgid "Ads"
+msgstr "Banner"
+
+#: class/AdManagement.php:643
+msgid "No"
+msgstr "Nein"
+
+#: class/AdManagement.php:645
+msgid "Yes"
+msgstr "Ja"
+
+#: class/AdManagement.php:648
+#, php-format
+msgid "%s View"
+msgid_plural "%s Views"
+msgstr[0] "%s Aufruf"
+msgstr[1] "%s Aufrufe"
+
+#: class/AdManagement.php:650
+msgid "0 Views"
+msgstr "0 Aufrufe"
+
+#: class/AdManagement.php:653
+#, php-format
+msgid "%s Click"
+msgid_plural "%s Clicks"
+msgstr[0] "%s Klick"
+msgstr[1] "%s Klicks"
+
+#: class/AdManagement.php:655
+msgid "0 Clicks"
+msgstr "0 Klicks"
+
+#: class/AdManagement.php:691 class/AdSpot.php:624 class/Dashboard.php:99
+#: class/Dashboard.php:137
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: class/AdManagement.php:692 class/AdManagement.php:712 class/AdSpot.php:625
+#: class/AdSpot.php:668 class/ResAds.php:217
+msgid "Delete"
+msgstr "Löschen"
+
+#: class/AdManagement.php:754
+msgid "Created on"
+msgstr "Erstellt am"
+
+#: class/AdManagement.php:756
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: class/AdManagement.php:759 class/AdSpot.php:712
+msgid "Remove"
+msgstr "Entfernen"
+
+#: class/AdManagement.php:775
+msgid "Bannername"
+msgstr "Bannername"
+
+#: class/AdManagement.php:789
+msgid "Banner Description"
+msgstr "Banner Beschreibung"
+
+#: class/AdManagement.php:811
+msgid "Target URL"
+msgstr "Ziel-URL"
+
+#: class/AdManagement.php:815
+msgid "Banner URL"
+msgstr "Banner-URL"
+
+#: class/AdManagement.php:818
+msgid "Upload"
+msgstr "Hochladen"
+
+#: class/AdManagement.php:840 class/AdManagement.php:858
+msgid "Banner Size"
+msgstr "Banner-Größe"
+
+#: class/AdManagement.php:859
+msgid "Banner is responsive"
+msgstr "Banner ist responsive"
+
+#: class/AdManagement.php:872
+msgid "Link mask"
+msgstr "Link maskieren"
+
+#: class/AdManagement.php:875
+msgid "Set link to nofollow"
+msgstr "Link auf \"nofollow\" setzen"
+
+#: class/AdManagement.php:878
+msgid "Open Link in new Window"
+msgstr "Link im neuem Fenster öffnen"
+
+#: class/AdManagement.php:898
+msgid "All AdSpots"
+msgstr "Alle AdSpots"
+
+#: class/AdManagement.php:899
+msgid "Most Used"
+msgstr "Häufig verwendet"
+
+#: class/AdManagement.php:931
+msgid "Carrying a banner name"
+msgstr "Trage einen Bannernamen ein"
+
+#: class/AdManagement.php:932
+msgid "Carrying a target url and banner url OR a source code and banner size"
+msgstr ""
+"Trage die Ziel-URL und Banner-URL ODER den Quellcode und die Bannergröße "
+"ein"
+
+#: class/AdManagement.php:932
+msgid "You don't need both!"
+msgstr "Du brauchst nicht beides eintragen!"
+
+#: class/AdManagement.php:933
+msgid "Select options"
+msgstr "Wähle die Optionen"
+
+#: class/AdManagement.php:934
+msgid "Select AdSpot(s)"
+msgstr "Wähle die AdSpot(s)"
+
+#: class/AdSpot.php:165
+msgid "Name failed"
+msgstr "Name fehlt"
+
+#: class/AdSpot.php:206
+msgid "AdSpot Details"
+msgstr "Anzeigendetails"
+
+#: class/AdSpot.php:207 class/AdSpot.php:529
+msgid "Banner"
+msgstr "Banner"
+
+#: class/AdSpot.php:208
+msgid "AdSpot Options"
+msgstr "AdSpot Optionen"
+
+#: class/AdSpot.php:211
+msgid "AdSpot Shortcode"
+msgstr "AdSpot Shortcode"
+
+#: class/AdSpot.php:528
+msgid "ID"
+msgstr "ID"
+
+#: class/AdSpot.php:530
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: class/AdSpot.php:738
+msgid "Description"
+msgstr "Beschreibung"
+
+#: class/AdSpot.php:757
+msgid "Choose Banner"
+msgstr "Wähle einen Banner"
+
+#: class/AdSpot.php:827
+msgid "Show top of an article"
+msgstr "Zeige oberhalb eines Artikels"
+
+#: class/AdSpot.php:832 class/AdSpot.php:883 class/AdSpot.php:928
+msgid "align left"
+msgstr "linksbündig"
+
+#: class/AdSpot.php:837 class/AdSpot.php:888
+msgid "align middle"
+msgstr "mittig"
+
+#: class/AdSpot.php:842 class/AdSpot.php:893 class/AdSpot.php:933
+msgid "align right"
+msgstr "rechtsbündig"
+
+#: class/AdSpot.php:847 class/AdSpot.php:898 class/AdSpot.php:938
+msgid "don't show"
+msgstr "nicht anzeigen"
+
+#: class/AdSpot.php:879
+msgid "Show bottom of an article"
+msgstr "Zeige unterhalb des Artikels"
+
+#: class/AdSpot.php:924
+msgid "Show inside top of an article"
+msgstr "Zeige oberhalb im Artikel"
+
+#: class/AdSpot.php:944
+msgid ""
+"To show your adspot inside of an article, you can use shortcodes after "
+"created adspot."
+msgstr ""
+"Um einen AdSpot innerhalb eines Artikels anzuzeigen, kannst Du auch die "
+"Shortcodes nutzen, welche Dir nach der Erstellung eines AdSpots angezeigt "
+"werden."
+
+#: class/AdSpot.php:953
+msgid "PHP Code"
+msgstr "PHP Code"
+
+#: class/AdSpot.php:956
+msgid "Article Code"
+msgstr "Artikel Code"
+
+#: class/AdSpot.php:970
+msgid "Shows an AdSpot"
+msgstr "Zeigt ein AdSpot"
+
+#: class/AdSpot.php:987
+msgid "Titel"
+msgstr "Titel"
+
+#: class/Dashboard.php:21
+msgid "ResAds"
+msgstr "ResAds"
+
+#: class/Dashboard.php:43
+msgid "News"
+msgstr "Neuigkeiten"
+
+#: class/Dashboard.php:108 class/Dashboard.php:146
+msgid "No Elements"
+msgstr "Keine Elemente"
+
+#: class/Dashboard.php:114 templates/admanagement/admanagement.php:4
+#: templates/admanagement/new.php:4
+msgid "Add New Ad"
+msgstr "Neuer Banner"
+
+#: class/Dashboard.php:151 templates/adspot/adspot.php:3
+#: templates/adspot/new.php:4
+msgid "Add New AdSpot"
+msgstr "Neuer AdSpot"
+
+#: class/Dashboard.php:174
+msgid "No items"
+msgstr "Keine Elemente"
+
+#: class/Settings.php:15
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: class/Settings.php:55
+msgid "Resolutions"
+msgstr "Auflösungen"
+
+#: class/Settings.php:72
+msgid "Size"
+msgstr "Größe"
+
+#: class/Settings.php:73
+msgid "Mobil"
+msgstr "Mobil"
+
+#: class/Settings.php:74
+msgid "Tablet"
+msgstr "Tablet"
+
+#: class/Settings.php:75
+msgid "Desktop"
+msgstr "Desktop"
+
+#: resads.php:12
+msgid "Something went wrong."
+msgstr "Irgendetwas ist falsch gelaufen."
+
+#: templates/admanagement/admanagement.php:9 templates/adspot/adspot.php:8
+msgid "Search"
+msgstr "Suchen"
+
+#: templates/admanagement/admanagement.php:18
+msgid "Here you found all created ads. You can edit or delete them."
+msgstr ""
+"Hier findest Du alle erstellten Banner. Du kannst sie bearbeiten oder "
+"löschen."
+
+#: templates/admanagement/edit.php:4
+#, php-format
+msgid "Edit Ad \"%s\""
+msgstr "Bearbeiten des Banners \"%s\""
+
+#: templates/adspot/edit.php:4
+#, php-format
+msgid "Edit AdSpot \"%s\""
+msgstr "Bearbeite AdSpot \"%s\""
+
+#: templates/dashboard/dashboard.php:4
+msgid "ResAds Dashboard"
+msgstr "ResAds Dashboard"
+
+#: templates/dashboard/dashboard.php:6
+msgid "First Step"
+msgstr "Erste Schritte"
+
+#: templates/dashboard/dashboard.php:8
+#, php-format
+msgid "Go to the menu %s AdSpots %s and create an AdSpot"
+msgstr "Gehe zum Menü %s AdSpot %s und erstelle ein AdSpot"
+
+#: templates/dashboard/dashboard.php:9
+msgid "Copy created Shortcode and put them into an post or create an widget"
+msgstr ""
+"Kopiere den Shortcode und füge ihn in eine Seite ein oder erstelle ein "
+"Widget."
+
+#: templates/dashboard/dashboard.php:10
+#, php-format
+msgid "Go to the menu %s AdManagement %s and create one adsense"
+msgstr "Gehe zum Menü %s Bannerverwaltung %s und erstelle ein Banner."
+
+#: templates/dashboard/dashboard.php:11
+msgid "Assign created banner to adspot"
+msgstr "Füge den erstellten Banner zum AdSpot hinzu."
+
+#: templates/dashboard/dashboard.php:12
+msgid "Ready!"
+msgstr "Fertig!"
+
+#: templates/settings/settings.php:3
+msgid "General Settings"
+msgstr "Grundeinstellungen"
+
+#~ msgid "Masked Link"
+#~ msgstr "Link maskieren"
+
+#~ msgid "Link as NoFollow"
+#~ msgstr "Link auf \"nofollow\" setzen"
+
+#~ msgid "Can't read that banner url. It's a correct graphic?"
+#~ msgstr "Banner kann nicht gelesen werden. Ist es eine richtige Grafik?"
+
+#~ msgid "Edited Ad successfully"
+#~ msgstr "Anzeige erfolgreich bearbeitet"
+
+#~ msgid "Created Ad successfully"
+#~ msgstr "Anzeige erfolgreich erstellt"
+
+#~ msgid "Is Masked"
+#~ msgstr "Link maskieren"
+
+#~ msgid "Is NoFollow"
+#~ msgstr "Link auf \"nofollow\" setzen"
+
+#~ msgid "Open in new Window"
+#~ msgstr "Link im neuem Fenster öffnen"
+
+#~ msgid " Views"
+#~ msgstr "Aufrufe"
+
+#~ msgid "Views"
+#~ msgstr "Aufrufe"
+
+#~ msgid " Clicks"
+#~ msgstr "Klicks"
+
+#~ msgid "Clicks"
+#~ msgstr "Klicks"
+
+#~ msgid "Settings General"
+#~ msgstr "Allgemeine"
